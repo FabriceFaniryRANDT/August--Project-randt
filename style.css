@@ -1,0 +1,89 @@
+body {
+    font-size: 15pt;
+    padding: 10px;
+    background-color: ghostwhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+  margin-top: 20px;
+  border-radius: 4px;
+  font-size: 16pt;
+  background-color: darkcyan;
+  width: 140px;
+  height: 40px;
+  border: 0;
+  outline: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+form{
+  background-color: white;
+  display: flex;
+  
+  padding-left: 20px;
+  align-items: start;
+  gap: 10px;
+  justify-content: center;
+  flex-direction: column;
+  height: 500px;
+  border-radius: 4px;
+  box-shadow: 0 0 2px grey;
+  border: 1px solid gainsboro;
+}
+
+input{
+  outline: 0;
+  border: 0;
+  height: 40px;
+  border: 1px solid gainsboro;
+  width: 90%;
+  font-size: 18pt;
+  padding: 5px;
+  color: grey;
+  border-radius: 4px;
+  position: relative;
+}
+
+span{
+  background-color: dodgerblue;
+  font-size: 16pt;
+  height: 50px;
+  width: 95%;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+#nom.danger{
+  border: 1px solid crimson;
+}
+
+input.success{
+  border: 1px solid seagreen;
+}
+
+label{
+  font-size: 17pt;
+  color: grey;
+}
+
+
+button.hide{
+  background-color: darkcyan;
+  width: 100px;
+  height: 40px;
+}
+
+h4,h5{
+  margin: 0;
+  color: #9293A3;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
